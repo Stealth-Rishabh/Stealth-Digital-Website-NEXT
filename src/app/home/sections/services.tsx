@@ -143,6 +143,7 @@ const Services = () => {
                 onHover="speedUp"
                 spinDuration={20}
                 className="custom-class text-black ml-0 !text-light"
+                classNameCircle="bg-[#E9D175]"
               />
               <ArrowRight className="h-10 w-10 rotate-[-45deg] absolute font-light stroke-1 text-gray-800" />
             </div>

@@ -12,6 +12,7 @@ interface CircularTextProps {
   spinDuration?: number;
   onHover?: "slowDown" | "speedUp" | "pause" | "goBonkers";
   className?: string;
+  classNameCircle?: string;
 }
 
 const getRotationTransition = (
@@ -41,6 +42,7 @@ const CircularText: React.FC<CircularTextProps> = ({
   spinDuration = 20,
   onHover = "speedUp",
   className = "",
+  classNameCircle = "",
 }) => {
   const letters = Array.from(text);
   const controls = useAnimation();
@@ -111,7 +113,7 @@ const CircularText: React.FC<CircularTextProps> = ({
     >
       {/* Yellow center circle */}
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="w-[105px] h-[105px] bg-[#E9D175] rounded-full"></div>
+        <div className={`w-[105px] h-[105px]  rounded-full ${classNameCircle}`}></div>
       </div>
 
       {letters.map((letter, i) => {
