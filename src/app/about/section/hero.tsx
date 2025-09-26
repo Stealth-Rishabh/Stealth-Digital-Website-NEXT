@@ -8,12 +8,12 @@ const AboutHero = () => {
     <div className="min-h-screen ">
       <div className="container mx-auto px-6 py-20">
         {/* Main Title - Centered */}
-        <div className="text-center mb-16">
+        {/* <div className="text-center mb-16">
           <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-4">
             About Company
           </h1>
 
-          {/* Breadcrumb Navigation - Centered */}
+         
           <nav>
             <div className="flex items-center justify-center space-x-2 text-base text-gray-600">
               <span>Home</span>
@@ -21,7 +21,7 @@ const AboutHero = () => {
               <span className="text-purple-600 font-medium">About Company</span>
             </div>
           </nav>
-        </div>
+        </div> */}
 
         {/* Main Content - Two Column Layout */}
         <div className="grid lg:grid-cols-2 gap-16 items-center justify-center max-w-7xl mx-auto">
@@ -40,7 +40,7 @@ const AboutHero = () => {
           {/* Right Column - Narrower */}
           <div className="space-y-6">
             {/* Description Paragraphs */}
-            <div className="space-y-5 text-gray-700">
+            <div className="space-y-5 text-gray-700 !mt-10">
               <p className="text-base leading-relaxed">
                 Sed ut perspiciatis unde omnis iste natus error voluptatem
                 accusantium doloremque laudantium, totam rem aperiame eaque quae
