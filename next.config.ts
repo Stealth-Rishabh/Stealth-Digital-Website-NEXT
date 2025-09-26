@@ -2,9 +2,25 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    domains: [
-      "next.mediacity.co.in",
-      "images.unsplash.com"
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'next.mediacity.co.in',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 };

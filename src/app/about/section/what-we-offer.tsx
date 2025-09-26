@@ -57,7 +57,7 @@ const WhatWeOffer = () => {
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
             Grow Leads and Sales with{' '}
             <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-              insanely Good
+              Insanely Good
             </span>{' '}
             SEO Strategy
           </h2>
