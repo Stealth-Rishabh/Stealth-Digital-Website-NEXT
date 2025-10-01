@@ -29,10 +29,13 @@ const Navbar = () => {
       name: 'Services', 
       href: '/services',
       dropdown: [
-        { name: 'Digital Marketing', href: '/services/digital-marketing' },
-        { name: 'Web Development', href: '/services/web-development' },
-        { name: 'SEO Optimization', href: '/services/seo' },
-        { name: 'Social Media', href: '/services/social-media' },
+        { name: 'Search Engine Optimization (SEO)', href: '/services/seo' },
+        { name: 'Web Design & Development', href: '/services/web-development' },
+        { name: 'Social Media Optimization (SMO)', href: '/services/social-media' },
+        { name: 'Search Engine Marketing (SEM)', href: '/services/digital-marketing' },
+        { name: 'AI Integrated SEO', href: '/services/ai-seo' },
+        { name: 'Influencer Marketing', href: '/services/influencer-marketing' },
+        { name: 'ORM Marketing', href: '/services/orm-marketing' },
       ]
     },
     { name: 'Blog', href: '/blog' },
