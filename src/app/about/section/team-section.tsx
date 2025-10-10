@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react'
+import React from 'react'
 import Image from 'next/image'
 
 const teamMembers = [
@@ -58,8 +58,6 @@ const TeamSection = () => {
             <div 
               key={index} 
               className="text-center group relative"
-              onMouseEnter={() => setActiveIndex(index)}
-              onMouseLeave={() => setActiveIndex(-1)}
             >
               {/* Social Links - On the right side of the image */}
               {/* <div className="absolute top-1/2 -translate-y-1/2 -right-4 z-10">
