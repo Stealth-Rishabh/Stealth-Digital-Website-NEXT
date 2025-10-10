@@ -64,7 +64,7 @@ const Portfolio = () => {
             Our Portfolio
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Explore our successful projects and see how we've helped businesses achieve their digital goals.
+            Explore our successful projects and see how we&apos;ve helped businesses achieve their digital goals.
           </p>
         </div>
 
@@ -130,7 +130,7 @@ const Portfolio = () => {
             Ready to Start Your Project?
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            Let's discuss how we can help bring your vision to life.
+            Let&apos;s discuss how we can help bring your vision to life.
           </p>
           <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl">
             Get Started Today

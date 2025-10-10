@@ -11,7 +11,7 @@ const Contact = () => {
             Get In Touch
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to take your digital presence to the next level? Let's discuss your project and see how we can help.
+            Ready to take your digital presence to the next level? Let&apos;s discuss your project and see how we can help.
           </p>
         </div>
 

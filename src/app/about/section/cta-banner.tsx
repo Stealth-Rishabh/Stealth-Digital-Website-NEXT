@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
 import { ArrowRight, X, Star } from 'lucide-react'
-import { section } from 'framer-motion/client'
 
 const CTABanner = () => {
   return (

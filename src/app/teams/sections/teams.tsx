@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react'
 import Image from 'next/image'
-import { Facebook, Twitter, Instagram, Linkedin, Plus, X } from 'lucide-react'
 
 const teamMembers = [
   {

@@ -1,12 +1,9 @@
 "use client";
 import React from "react";
-import { Megaphone, Code, Mail, BarChart3 } from "lucide-react";
-import { cn } from "@/lib/utils";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import CircularText from "@/components/ui/circular-text";
-import { motion } from "framer-motion";
 
 const MarketingProcess = () => {
  

@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react'
 import Image from 'next/image'
-import { Facebook, Twitter, Instagram, Linkedin, Plus, X } from 'lucide-react'
 
 const teamMembers = [
   {
@@ -38,7 +37,7 @@ const teamMembers = [
 ];
 
 const TeamSection = () => {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex] = useState(0);
 
   return (
     <section className="py-24 bg-white">

@@ -10,25 +10,24 @@ const SMOVideoSection = () => {
 
   // Intersection Observer for autoplay
   useEffect(() => {
+    const videoElement = videoRef.current
+    if (!videoElement) return
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          videoRef.current?.play()
+          videoElement.play()
         } else {
-          videoRef.current?.pause()
+          videoElement.pause()
         }
       },
       { threshold: 0.5 }
     )
 
-    if (videoRef.current) {
-      observer.observe(videoRef.current)
-    }
+    observer.observe(videoElement)
 
     return () => {
-      if (videoRef.current) {
-        observer.unobserve(videoRef.current)
-      }
+      observer.unobserve(videoElement)
     }
   }, [])
 

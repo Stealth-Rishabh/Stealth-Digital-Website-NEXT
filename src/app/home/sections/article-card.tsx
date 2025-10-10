@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 type Props = {
   date: string
@@ -38,7 +39,8 @@ export function ArticleCard({ date, title, author, image }: Props) {
               </span>
               <span className="text-xs text-gray-600 font-medium">{author.name}</span>
             </div>
-            <button
+            <Link
+              href={`/blog/${title.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '')}`}
               className="group/read inline-flex items-center gap-1 text-xs font-semibold text-black hover:text-gray-600 transition-colors"
               aria-label="Read more"
             >
@@ -57,7 +59,7 @@ export function ArticleCard({ date, title, author, image }: Props) {
                   strokeLinejoin="round"
                 />
               </svg>
-            </button>
+            </Link>
           </div>
         </div>
       </div>

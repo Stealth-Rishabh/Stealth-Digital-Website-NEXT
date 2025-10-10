@@ -8,7 +8,7 @@ interface MarqueeProps {
   reverse?: boolean;
   className?: string;
   applyMask?: boolean;
-  [key: string]: any;
+  [key: string]: unknown;
 }
 
 const Marquee = ({ 

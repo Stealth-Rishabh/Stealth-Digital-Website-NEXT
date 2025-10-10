@@ -89,7 +89,7 @@ const CTABanner = () => {
             <h2 className="text-4xl lg:text-5xl xl:text-5xl font-bold text-gray-900 leading-tight mb-4">
               Ready to Work with Our{' '}
               <span className="block">Expert Team?</span>
-              <span className="block">Let's Get Started!</span>
+              <span className="block">Let&apos;s Get Started!</span>
             </h2>
             <p className="text-lg lg:text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
               Join hands with our experienced professionals to boost your digital marketing success

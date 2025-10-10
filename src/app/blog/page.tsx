@@ -129,7 +129,7 @@ const Blog = () => {
                     </div>
                   </div>
                   <Link
-                    href={`/blog/${blogPosts[0].id}`}
+                    href={`/blog/future-of-digital-marketing-2024`}
                     className="text-blue-600 font-medium hover:text-blue-700"
                   >
                     Read More →
@@ -160,7 +160,7 @@ const Blog = () => {
                   <span className="text-sm text-gray-500">{post.readTime}</span>
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-200">
-                  <Link href={`/blog/${post.id}`}>
+                  <Link href={`/blog/${post.id === 1 ? 'future-of-digital-marketing-2024' : post.id === 2 ? 'building-scalable-web-applications' : post.id === 3 ? 'seo-strategies-that-actually-work' : post.id === 4 ? 'psychology-of-user-experience-design' : post.id === 5 ? 'mobile-first-design-principles' : 'content-marketing-trends-2024'}`}>
                     {post.title}
                   </Link>
                 </h3>
@@ -176,7 +176,7 @@ const Blog = () => {
                     </div>
                   </div>
                   <Link
-                    href={`/blog/${post.id}`}
+                    href={`/blog/${post.id === 1 ? 'future-of-digital-marketing-2024' : post.id === 2 ? 'building-scalable-web-applications' : post.id === 3 ? 'seo-strategies-that-actually-work' : post.id === 4 ? 'psychology-of-user-experience-design' : post.id === 5 ? 'mobile-first-design-principles' : 'content-marketing-trends-2024'}`}
                     className="text-blue-600 font-medium hover:text-blue-700 text-sm"
                   >
                     Read More →
