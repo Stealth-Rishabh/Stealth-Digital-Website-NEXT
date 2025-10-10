@@ -20,7 +20,7 @@ export default function NotFound() {
         </h1>
         
         <p className="text-lg text-gray-600 mb-8">
-          Sorry, the blog post you're looking for doesn't exist or has been moved.
+          Sorry, the blog post you&apos;re looking for doesn&apos;t exist or has been moved.
         </p>
         
         <div className="space-y-4">

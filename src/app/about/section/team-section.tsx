@@ -37,7 +37,6 @@ const teamMembers = [
 ];
 
 const TeamSection = () => {
-  const [activeIndex] = useState(0);
 
   return (
     <section className="py-24 bg-white">
